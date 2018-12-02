@@ -1,0 +1,159 @@
+/* global */
+
+body{
+  font-family: 'Cinzel', serif;
+  background-color:#EBE3D8;
+  margin-top: 0%;
+  width: 100%;
+}
+
+p::selection{
+  background: #EED6DC;
+}
+
+iframe{
+  border: #955465 1px solid
+}
+
+section{
+  width: 100%;
+}
+
+/* NAVBAR */
+nav{
+  background-color:#EED6DC;
+  text-align: center;
+  border-bottom: #955465 2px solid;
+}
+
+.nav-item{
+  font-size: 1.2em;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+/* LOGO  */
+#logo img{
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  display: table;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+/* Title */
+#title{
+  text-align: center;
+  font-size: 2.2em;
+  Letter-spacing: .15em;
+  width: 100%;
+  margin-top: 0;
+}
+/* PINK */
+p span{
+  color: #955465;
+  font-size: 150%;
+}
+
+/* Local */
+
+h2, h3 {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  color:#955465;
+}
+
+/* services*/
+#services{
+  background-color:#EED6DC;
+  text-align: center;
+  color: #955465;
+  font-size: 1.5em;
+  width: 100% ;
+  /* padding-top:2em; */
+}
+
+.store{
+  /* padding: 1px; */
+  margin-top: 0;
+  margin-bottom: 0;
+  width:100%;
+}
+
+
+.description {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.spacing{
+  text-decoration:
+}
+
+span a{
+  color:inherit;
+  font-size: 18px;
+}
+
+span a:hover{
+  color: white;
+}
+/* TABLE */
+
+.row{
+  border: #955465 1px solid;
+}
+.col{
+  padding: 1.5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top: #955465 1px solid;
+}
+
+p{
+  text-align: center;
+}
+
+/* FOOTER */
+
+#footer p{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  }
+
+  #footer{
+    background-color: #955465;
+    margin: 0;
+    padding: 0.2em;
+    color: #EED6DC;
+    width: 100%;
+    }
+
+  .footmargin p{
+   text-align: left;
+  }
+
+  .footmargin{
+   padding: 0%;
+  }
+  #footercontact{
+    float: right;
+    text-transform: none;
+    color: #EED6DC;
+  }
+
+#footercontact a {
+  color: inherit;
+}

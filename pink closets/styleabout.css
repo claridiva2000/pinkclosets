@@ -1,0 +1,166 @@
+/* global */
+
+body{
+  font-family: 'Cinzel', serif;
+  background-color:#EBE3D8;
+  margin-top: 0%;
+  width: 100%;
+}
+
+p::selection{
+  background: #EED6DC;
+}
+
+.container{
+  padding-bottom: 1.5em;
+  line-height: 1.8em;
+  width: 100%;
+  margin:auto;
+}
+
+section{
+  width: 100%;
+  margin: auto;
+}
+/* Local */
+
+/* NAVBAR */
+nav{
+  background-color:#EED6DC;
+  text-align: center;
+  border-bottom: #955465 2px solid;
+}
+
+h4{
+  font-size: 18px;
+}
+
+h4 span{
+  color: #955465;
+  font-size: 1.4em;
+}
+
+li{
+  font-size: 1.1em;
+  text-decoration: none
+  color: black;
+}
+
+.nav-item{
+  font-size: 1.2em;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+/* LOGO  */
+#logo img{
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  display: table;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+/* Title */
+#title{
+  text-align: center;
+  font-size: 2.2em;
+  Letter-spacing: .15em;
+  width: 100%;
+  margin-top: 0;
+}
+/* PINK */
+p span{
+  color: #955465;
+  font-size: 150%;
+}
+
+/* contact */
+#contact{
+  padding-top: 2em;
+  text-align: center;
+  font-size: 1.4em;
+}
+#compy img{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2em;
+  height:50%;
+}
+/* ABOUT */
+#about{
+  background-color:#EED6DC;
+  text-align: center;
+  color: #955465;
+  font-size: 2.2em;
+  
+}
+
+#about div{
+  padding: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* email on contact page*/
+p a{
+  color: inherit;
+}
+p a:hover{
+  color: white;
+  background:#955465;
+}
+#bio img{
+  margin: 20px;
+  width: 25%;
+  float: left; 
+  border: #955465 1px solid;
+  margin-top: 3%;
+}
+#section1{
+  margin-top: 5%;
+}
+#bio2 img{
+  margin: 20px;
+  width: 25%;
+  float: right; 
+  border: #955465 1px solid;
+}
+
+#bio3 img{
+  margin: 20px;
+  width: 25%;
+  float: left; 
+  border: #955465 1px solid;
+}
+
+
+#footer p{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  }
+
+  #footer{
+    background-color: #955465;
+    margin: 0;
+    padding: 0.2em;
+    color: #EED6DC;
+    width: 100%;
+    }
+
+  #footercontact{
+    float: right;
+    text-transform: none;
+    color: #EED6DC;
+  }
+
+#footercontact a { color: inherit; } 

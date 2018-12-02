@@ -1,0 +1,286 @@
+/* global */
+
+body{
+  font-family: 'Cinzel', serif;
+  background-color:#EBE3D8;
+  margin-top: 0%;
+  width: 100%;
+}
+
+.container{
+  padding-bottom: 1.5em;
+  line-height: 1.8em;
+  width: 100%;
+  margin:auto;
+}
+
+section{
+  width: 100%;
+  margin: auto;
+}
+/* Local */
+
+/* NAVBAR */
+nav{
+  background-color:#EED6DC;
+  text-align: center;
+  border-bottom: #955465 2px solid;
+}
+
+h4{
+  font-size: 18px;
+}
+
+h4 span{
+  color: #955465;
+  font-size: 1.4em;
+}
+
+li{
+  font-size: 1.1em;
+  text-decoration: none
+  color: black;
+}
+
+.nav-item{
+  font-size: 1.2em;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+
+/* LOGO  */
+#logo img{
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  display: table;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+/* Title */
+#title{
+  text-align: center;
+  font-size: 2.2em;
+  Letter-spacing: .15em;
+  width: 100%;
+  margin-top: 0;
+}
+
+p span{
+  color: #955465;
+  font-size: 150%;
+}
+
+/* Carousel */
+.carousel{
+   margin-left:3%;
+  margin-right:3%; 
+  margin-bottom:2.2em;
+  border: #955465 1px solid;
+ } 
+
+/* BLURB */
+#blurb{
+  background-color:#EED6DC;
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 15px;
+
+}
+
+#pitch{
+  padding-bottom: 2px;
+  padding-top: 10px;
+}
+
+/* NEWSLETTER */
+#newsletter{
+  margin: auto;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 12px;
+}
+
+#newsletter span{
+  font-size: 2em;
+  color: #955465;
+  text-decoration: underline;
+}
+
+form{
+  margin: auto;
+}
+
+#gallery{
+  background-color: #EED6DC;
+  padding-top: 20px;
+}
+.gallery{
+  padding: 5em;
+  margin: 5px;
+  border: #955465 2px solid;
+  color: #955465;
+}
+
+#kitchen{
+  background-image: url(kitchenthumbnail.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#couch{
+  background-image: url(couchthumbnail.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cactus{
+  background-image: url(cactusthumbnail.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#philanthropy{
+  background-image: url(philanthropy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact{
+  background-image: url(contactthumbnail.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picnav{
+  padding: .2em;
+  background-color: #EBE3D8;
+  text-align: center;
+  font-weight: bold;
+  border: #955465 1px solid;
+
+}
+
+.last{
+  background-color: #EBE3D8;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 0;
+
+}
+
+.last div{
+margin: auto;
+}
+
+h6{
+  font-weight: bold;
+  text-decoration: underline;
+  color: #955465;
+  padding-bottom :  11px;
+  line-height:3.5em;
+}
+
+.bottom{
+  text-align: center;
+  border-top: #955465 1px solid;
+}
+
+.bottom p{
+}
+
+.bottom ul{
+font-size: .8em;
+float: left;
+list-style-type: none;
+padding-right: 0;
+padding-left: 0;
+}
+
+
+#form2{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#inline{
+  margin: 0 18% 0 18%;
+  text-align: center;
+}
+
+#inline li{
+  float: center;
+  display: inline;
+  text-align: center;
+  list-style-type: none;
+  padding: 0px 10px 0 20px;
+
+}
+
+div a{
+  color: inherit;
+}
+div a:hover{
+  color: inherit;
+}
+
+.bottom a{
+  color: inherit;
+}
+
+#middle{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+#connect{
+  font-size: 2em;
+  color: #955465;
+  word-spacing: 1em;
+  line-height: 1em;
+}
+
+button{
+  color: #EED6DC;
+  background-color: #955465;
+  border: none;
+  margin-top: 4px;
+}
+
+.input2{
+  margin-bottom: 3px;
+}
+#final{
+ margin:auto;
+}
+
+#footer p{
+  margin: 0%;
+  padding: 0;
+  width: 100%;
+  }
+
+  #footer{
+    background-color: #955465;
+    margin: 0;
+    padding: 0.2em;
+    color: #EED6DC;
+    width: 100%;
+    }
+
+  #footercontact{
+    float: right;
+    text-transform: none;
+    color: #EED6DC;
+  }
+
+#footercontact a { color: inherit; }
